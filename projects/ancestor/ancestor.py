@@ -16,7 +16,7 @@ class Queue():
 
 class Graph:
     def __init__(self):
-        self.verts = {} # adj list /  dictionary of vertices mapping labels to edges
+        self.verts = {} # adj list (dictionary) of vertices mapping labels to edges
 
     def add_vertex(self, vertex_id):
         if vertex_id not in self.verts:
