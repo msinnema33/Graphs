@@ -50,6 +50,8 @@ class Graph:
 
 
     def dft_recursive(self, starting_vertex, visited=None):
+        # if we instantiate visited as a set (visited = set())
+        # we can take out the next two lines
         if visited is None:
             visited = set()
         if starting_vertex not in visited:
