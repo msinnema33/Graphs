@@ -90,7 +90,7 @@ class SocialGraph:
             # deque the first path
             current_path = neighbors_to_visit.dequeue()
             # grab most recent vertex
-            print("CURRENT PATH", current_path)
+            # print("CURRENT PATH", current_path)
             current_vertex = current_path[-1]
             # if the current vertex has not been visited
             if current_vertex not in visited:
